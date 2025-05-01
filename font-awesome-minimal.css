@@ -1,7 +1,7 @@
 /*!  * Font Awesome Minimal CSS for Theme  * Only includes icons used in the theme  */
 
 @font-face {
-  font-family: "Font Awesome 6 Free";
+  font-family: "FontAwesome";
   font-style: normal;
   font-weight: 900;
   font-display: block;
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: "Font Awesome 6 Brands";
+  font-family: "FontAwesome";
   font-style: normal;
   font-weight: 400;
   font-display: block;
@@ -18,7 +18,7 @@
 
 /* Base styles for all icons */
 .fa, .fas {
-  font-family: "Font Awesome 6 Free";
+  font-family: "FontAwesome";
   font-weight: 900;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -31,7 +31,7 @@
 
 /* Brands icons */
 .fab {
-  font-family: "Font Awesome 6 Brands";
+  font-family: "FontAwesome";
   font-weight: 400;
 }
 
