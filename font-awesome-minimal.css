@@ -1,86 +1,39 @@
-/*!  * Font Awesome Minimal CSS for Theme  * Only includes icons used in the theme  */
+/* Font face declarations as you provided, verified */
 
 @font-face {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 6 Free";
   font-style: normal;
   font-weight: 900;
   font-display: block;
   src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-solid-900.woff2) format("woff2");
 }
-
 @font-face {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 6 Brands";
   font-style: normal;
   font-weight: 400;
   font-display: block;
   src: url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-brands-400.woff2) format("woff2");
 }
 
-/* Base styles for all icons */
-.fa, .fas {
-  font-family: "FontAwesome";
+/* Base styles */
+.fas {
+  font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+}
+.fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+.fa {
   display: inline-block;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Brands icons */
-.fab {
-  font-family: "FontAwesome";
-  font-weight: 400;
-}
-
-/* Icon content definitions */
+/* Icons */
 .fa-search:before { content: "\f002"; }
-.fa-times:before { content: "\f00d"; }
-.fa-bars:before { content: "\f0c9"; }
-.fa-angle-right:before { content: "\f105"; }
-.fa-angle-down:before { content: "\f107"; }
-.fa-clock:before { content: "\f017"; }
-.fa-check-circle:before { content: "\f058"; }
-.fa-quote-left:before { content: "\f10d"; }
-.fa-quote-right:before { content: "\f10e"; }
-
-/* Social Media Icons */
-.fa-facebook:before { content: "\f39e"; }
-.fa-facebook-f:before { content: "\f09a"; }
-.fa-twitter:before { content: "\f099"; }
-.fa-youtube:before { content: "\f16a"; }
-.fa-pinterest:before { content: "\f0d2"; }
-.fa-pinterest-p:before { content: "\f231"; }
-.fa-whatsapp:before { content: "\f232"; }
-.fa-envelope:before { content: "\f0e0"; }
-
-/* Utility classes */
-.fa-fw {
-  text-align: center;
-  width: 1.25em;
-}
-.fa-pull-left {
-  float: left;
-  margin-right: .3em;
-}
-.fa-pull-right {
-  float: right;
-  margin-left: .3em;
-}
-
-/* Sizing */
-.fa-lg { font-size: 1.33333em; line-height: 0.75em; vertical-align: -.0667em; }
-.fa-xs { font-size: .75em; }
-.fa-sm { font-size: .875em; }
-.fa-1x { font-size: 1em; }
-.fa-2x { font-size: 2em; }
-.fa-3x { font-size: 3em; }
-
-/* Rotation classes */
-.fa-rotate-90 { transform: rotate(90deg); }
-.fa-rotate-180 { transform: rotate(180deg); }
-.fa-rotate-270 { transform: rotate(270deg); }
-
-/*undefined
+.fa-facebook:before { content: "\f39undefined
