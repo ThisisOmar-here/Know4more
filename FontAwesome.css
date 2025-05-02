@@ -1,0 +1,56 @@
+/* Load the Font Awesome font family with an explicit font-family name matching the loaded font */
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-solid-900.woff2?v=6.4.2') format('woff2'),
+       url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/webfonts/fa-solid-900.woff?v=6.4.2') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Base style for all your old icon classes */
+.fa {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+}
+
+/* Map your icon classes to Unicode glyphs */
+.fa-facebook:before { content: "\f09a"; }
+.fa-twitter:before { content: "\f099"; }
+.fa-google-plus:before { content: "\f0d5"; }
+.fa-rss:before { content: "\f09e"; }
+.fa-youtube:before { content: "\f16a"; }
+.fa-skype:before { content: "\f17e"; }
+.fa-stumbleupon:before { content: "\f1a4"; }
+.fa-tumblr:before { content: "\f173"; }
+.fa-vk:before { content: "\f189"; }
+.fa-stack-overflow:before { content: "\f16c"; }
+.fa-github:before { content: "\f09b"; }
+.fa-linkedin:before { content: "\f0e1"; }
+.fa-dribbble:before { content: "\f17d"; }
+.fa-soundcloud:before { content: "\f1be"; }
+.fa-behance:before { content: "\f1b4"; }
+.fa-digg:before { content: "\f1a6"; }
+.fa-instagram:before { content: "\f16d"; }
+.fa-pinterest:before { content: "\f0d2"; }
+.fa-pinterest-p:before { content: "\f231"; }
+.fa-twitch:before { content: "\f1e8"; }
+.fa-delicious:before { content: "\f1a5"; }
+.fa-codepen:before { content: "\f1cb"; }
+.fa-reddit:before { content: "\f1a1"; }
+.fa-whatsapp:before { content: "\f232"; }
+.fa-snapchat-ghost:before { content: "\f2ac"; }
+.fa-envelope:before { content: "\f0e0"; }
+.fa-external-link-alt:before { content: "\f08e"; }
+
+/* Navigation icons */
+.fa-bars:before { content: "\f0c9"; }
+.fa-times:before { content: "\f00d"; }
+.fa-search:before { content: "\f002"; }
+.fa-chevron-down:before { content: "\f107"; }
+.fa-chevron-up:before { content: "\f106"; }
+.fa-angle-up:before { content: "\f102"; }
+.fa-arrow-up:before { content: "\f062"; }
+/* ... add any other icons you need ... */
